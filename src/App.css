@@ -46,15 +46,18 @@
   justify-content: center;
   align-items: center;
   gap: 20px;
-  background-color: aliceblue;
+  background-color: rgb(111, 188, 255);
 }
 .buttons {
-  padding: 2em;
-  display: flex;
+  padding: 0.5em 2em;
   gap: 10px;
-  background-color: rgb(231, 231, 231);
+  background-color: rgb(48, 47, 105);
   border-radius: 20px;
-  width: fit-content;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  color: #faf4ff;
 }
 .container {
   background-color: #eddbff;

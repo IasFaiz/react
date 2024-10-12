@@ -28,14 +28,16 @@ function AppPagination() {
           style={{
             backgroundColor: "GrayText",
             margin: "10px",
-            padding: "10px",
+            padding: "20px",
+            borderRadius: "1%",
           }}
         >
           <div
             className="heading"
             style={{
               backgroundColor: "aqua",
-              padding: "10px",
+              padding: "20px",
+              borderRadius: "1%",
             }}
           >
             {data.title}
@@ -51,9 +53,20 @@ function AppPagination() {
           </div>
         </div>
       ))}
-      <div>
-        <button onClick={handleClickBack}>Back</button>
-        <button onClick={handleClickNext}>Next</button>
+      <div
+        style={{
+          display: "flex",
+          justifyContent: "space-between",
+          padding: "5px",
+          gap: "1rem",
+        }}
+      >
+        <button onClick={handleClickBack} className="buttons">
+          Back
+        </button>
+        <button onClick={handleClickNext} className="buttons">
+          Next
+        </button>
       </div>
     </>
   );
