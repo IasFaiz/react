@@ -1,3 +1,8 @@
+#react code Store
+Here I will be dumping all my react practice or random code that i will be making may be to learn some interesting react components or concepts.
+The control flows from App.js and there you can choose which components to run/execute on UI.
+This is Vite application and to run "npm run dev"
+
 # React + Vite
 
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
