@@ -26,7 +26,7 @@ function AppPagination() {
           className="container"
           key={idx}
           style={{
-            backgroundColor: "GrayText",
+            backgroundColor: "Highlight",
             margin: "10px",
             padding: "20px",
             borderRadius: "1%",
@@ -35,7 +35,7 @@ function AppPagination() {
           <div
             className="heading"
             style={{
-              backgroundColor: "aqua",
+              backgroundColor: "cyan",
               padding: "20px",
               borderRadius: "1%",
             }}
@@ -45,7 +45,7 @@ function AppPagination() {
           <div
             className="description"
             style={{
-              backgroundColor: "GrayText",
+              backgroundColor: "aliceblue",
               padding: "10px",
             }}
           >
